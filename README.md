@@ -34,7 +34,7 @@ MongoTools.config({
 });
 ```
 
-The `path` key for S3 can be used to set a folder structure for _all_ of your uploads.  You can optionally overwrite that path when running backups.  If you skip the setting the path, the backups will be put in the root of your bucket in a folders named with the current datetime (eg. `1444414042859`).  To have backups go in a specific folder instead, just add any string as the `path` (supports slashes for deeper folder structure).  Note that a trailing slash will always be added if you leave it out, so it's optional when setting the path in your config.
+The `path` key for S3 can be used to set a folder structure for _all_ of your uploads.  You can optionally overwrite that path when running backups.  If you skip the setting the path, the backups will be put in the root of your bucket in a folder named with the current datetime (eg. `1444414042859`).  To have backups go in a specific folder instead, just add any string as the `path` (supports slashes for deeper folder structure).  Note that a trailing slash will always be added if you leave it out, so it's optional when setting the path in your config.
 
 ## Usage
 
